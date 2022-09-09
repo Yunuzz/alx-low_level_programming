@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * Description: main - prints a text
+ * main - print the string in the put function
  *
- * return: Always 0 (Success)
+ * Description: using the main function
+ * thus program prints "programming is like building a multilingual puzzle"
+ * Return: 0
  */
 int main(void)
 {
