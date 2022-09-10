@@ -1,26 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - program that prints the alphabet in lowercase, followed by a new line
- * You can only use the putchar
- * Return: 0
+ * main - Ommit some alphabet
+ *
+ * Return:Always (success)
  */
 
 int main(void)
 {
-	int lw = 'a';
-	while (lw <= 'z')
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (lw == 'e' || lw == 'q')
+		if (c !='e'; && c !='q')
 		{
-			lw += 1;
-		}
-		else
-		{
-			putchar(lw);
-			lw += 1;
-		}
+			putchar(c);
 	}
+	}
+
 	putchar('\n');
+
 	return (0);
 }
