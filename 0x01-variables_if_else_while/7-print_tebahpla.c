@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
- * main - prints if the number is positive, zero, or negative
+ * main - prints the alphabet reverse
  *
- * Description: using the main function
- * this program prints "program is positive, zero, or negative
- * Retuen: 0;
+ * Retuen:Always (success)
  */
 int main(void)
+
 {
 	char c;
+
 	for (c = 'z'; c >= 'a'; c--)
-{
-putchar(c);
-}
-putchar('\n');
-return (0);
-}
+	{
+		putchar(c);
+	}
+	putchat('\n');
+
+	return (0);
