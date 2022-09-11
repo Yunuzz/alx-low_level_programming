@@ -22,7 +22,9 @@ int main(void)
 	for (c = 'z'; c >= 'a'; c--)
 
 	{
-
+		{
+			continue;
+		}
 	putchar(c);
 
 	}
