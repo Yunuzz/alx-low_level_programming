@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - prints the number sine 0 to 9
  *
- * Return: Always 0 (Success)
+ * Return: Always(Success)
  */
 int main(void)
 {
-		int d = 48;
+		int n;
 
-			while (d < 58)
-					{
-								putchar(d);
-										d++;
-											}
+			for (n = '0'; n <= '9'; n++)
+			{
+								putchar(n);								}
 				putchar('\n');
 
 return (0);
+}
