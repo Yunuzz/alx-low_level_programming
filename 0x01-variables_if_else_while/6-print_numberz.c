@@ -1,18 +1,16 @@
 #include <stdio.h>
-
 /**
- * main - prints the number sine 0 to 9
+ * main - entry point
  *
- * Return: Always(Success)
+ * Return: alway returns 0
+ *
  */
 int main(void)
 {
-		int n;
+	int a = 0;
 
-	for (n = '0'; n <= '9'; n++)
-			{
-								putchar(n);								}
-				putchar('\n');
-
-return (0);
+	for (; a < 10 ; a++)
+		printf("%d", a);
+	putchar('\n');
+	return (0);
 }
