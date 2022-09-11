@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - prints number 0 to 9
+ * main - Entry point
  *
- * Return:Always (success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int n;
+		int d = 48;
 
-		for (n = '0'; n <= '9'; n++)
-		{
-			putchar(n);
-		}
-	putchar('\n');
-	return (0);
-	}
+			while (d < 58)
+					{
+								putchar(d);
+										d++;
+											}
+				putchar('\n');
 
+					return (0);
