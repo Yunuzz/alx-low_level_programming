@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *Description:Write a program that prints all possible combinations
  * main - prints a series of numbers with commas
  *
  * return - always(success)
