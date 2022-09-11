@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints a hexadecial string
+ * main - prints a hexadecimal string
  *
  * Retuen:Always(success)
  */
@@ -13,6 +13,13 @@ int ain(void)
 	{
 		putchar(c);
 	}
+
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
+	}
+
 	putchar('\n');
+
 	return (0);
 }
