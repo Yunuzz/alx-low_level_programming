@@ -2,7 +2,7 @@
 
 /**
  *
- *  * main - Entry point
+ * main - Entry point
  *
  * Description: main - prints all possible combinations 2
  *
