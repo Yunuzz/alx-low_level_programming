@@ -2,37 +2,26 @@
 /**
  *
  * main - Entry point
- * Description: using the main function
- * this "prints all possible different combinations of 3 digits
- * Return: 0
+ *
+ * Return: Always 0 (success)
  */
-
 int main(void)
+
 {
-	int c = 0;
-	int b;
-	int d;
-	int f;
 
-	while (c <= 999)
+	char alphabet;
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-	b = (c / 100 + '0');
-	d = (c / 10 % 10 + '0');
-	f = (c % 10 + '0');
-	if ((b < d) && (d < f))
-	{
-	putchar(b);
-	putchar(d);
-	putchar(f);
+	if (alphabet == 'q')
 
-	if (c != 789)
-	{
-	putchar(',');
-	putchar(' ');
+	continue;
+
+	else if (alphabet == 'e')
+	continue;
+	putchar(alphabet);
 	}
-	}
-	c++;
-	}
+
 	putchar('\n');
 	return (0);
-}
+
+}           
