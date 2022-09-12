@@ -1,34 +1,41 @@
 #include <stdio.h>
+
+
+
 /**
- * main - Entry point
- * Description: main - prints all possible combinations 2
- * Return: 0
- */
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
+
+
+
 int main(void)
+
 {
-	int i, j;
 
-	for (i = 0; i < 100; i++)
+		int i;
 
-	{
-	for (j = 0; j < 100; j++)
-	{
-	if (i < j)
-	{
-	putchar((i / 10) + 48);
-	putchar((i % 10) + 48);
-	putchar(' ');
-	putchar((j / 10) + 48);
-	putchar((j % 10) + 48);
-	if (i != 98 || j != 99)
-	{
-	putchar(',');
-	putchar(' ');
-	}
-	}
-	}
-	}
-	putchar('\n');
-	return (0);
+
+
+			for (i = 0; i < 10; i++)
+
+					{
+
+								printf("%i", i);
+
+									}
+
+
+
+				printf("\n");
+
+
+
+					return (0);
+
 }
-

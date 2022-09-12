@@ -1,30 +1,67 @@
 #include <stdio.h>
-#include <stdlib.h>
-/**
- * main - prints single digit numbers starting from 0
- *
- * return: Returns 0 at the end
- */
-int main(void)
-{
-	int i, j;
-	for (i = '0'; i <= '9'; i++)
-	{
-		for (j = '1'; j <= '9'; j++)
-	{
-		if (j > i)
-		{
-			putchar(i + '0');
-				putchar(j + '0');
-				if (i != '8')
-				{
-					putchar(',');
-						putchar(' ');
-				}
-		}
-	}
-	}
-putchar('\n');
-	return (0);
-	}
 
+
+
+/**
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * codes for printing all possible combination of two d/t digits
+ *
+ *     * in ascending order and seperated by a comma followed by a space.
+ *
+ *      *
+ *
+ *       * Return: Always 0 (Success)
+ *
+ *        */
+
+
+
+int main(void)
+
+{
+
+		int  digit1, digit2;
+
+
+
+			for (digit1 = 0; digit1 < 9; digit1++)
+
+					{
+
+								for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+
+											{
+
+															putchar((digit1 % 10) + '0');
+
+																		putchar((digit2 % 10) + '0');
+
+
+
+																					if (digit1 == 8 && digit2 == 9)
+
+																										continue;
+
+
+
+																								putchar(',');
+
+																											putchar(' ');
+
+																													}
+
+									}
+
+
+
+				putchar('\n');
+
+
+
+					return (0);
+
+}
