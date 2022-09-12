@@ -1,27 +1,38 @@
 #include <stdio.h>
-
 /**
- * main - Ommit some alphabet
  *
- * Return:Always (success)
+ * main - Entry point
+ * Description: using the main function
+ * this "prints all possible different combinations of 3 digits
+ * Return: 0
  */
 
 int main(void)
 {
-	char c;
+	int c = 0;
+	int b;
+	int d;
+	int f;
 
-	for (c = 'a'; c <= 'z'; c++)
+	while (c <= 999)
 	{
-	if ((c == 'e') || (c == 'q'))
+	b = (c / 100 + '0');
+	d = (c / 10 % 10 + '0');
+	f = (c % 10 + '0');
+	if ((b < d) && (d < f))
 	{
-	continue;
-	}
+	putchar(b);
+	putchar(d);
+	putchar(f);
 
-	putchar(c);
+	if (c != 789)
+	{
+	putchar(',');
+	putchar(' ');
 	}
-
 	}
-
+	c++;
+	}
 	putchar('\n');
 	return (0);
 }
