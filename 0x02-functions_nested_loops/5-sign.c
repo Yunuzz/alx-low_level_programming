@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * print_sign - main function
  *
  * @n: character to compare
